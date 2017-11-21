@@ -10,10 +10,16 @@ import Foundation
 
 public class Math {
     public var a: Int!
+    
     init(a: Int) {
         self.a = a
     }
+    
     public func accurate() {
         print("as;ldfk;alsdkfj;ladskjf;lkasjdfjads;lfjas;lfjas;dkjf;laskjdf;")
+    }
+    
+    public static func func3() {
+        print("asdlfja;sldfkjas;ldjadsf")
     }
 }
