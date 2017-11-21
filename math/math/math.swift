@@ -20,6 +20,6 @@ public class Math {
     }
     
     public static func func3() {
-        print("asdlfja;sldfkjas;ldjadsf")
+        print("math func3")
     }
 }
