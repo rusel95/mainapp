@@ -5,7 +5,7 @@
       location = "container:mainapp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../abstract/abstract.xcodeproj">
+      location = "group:AbstractLayer/AbstractLayer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:math/math.xcodeproj">

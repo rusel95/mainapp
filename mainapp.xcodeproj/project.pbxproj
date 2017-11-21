@@ -14,8 +14,7 @@
 		842377551FC446A500627F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842377531FC446A500627F2D /* LaunchScreen.storyboard */; };
 		842377601FC446A500627F2D /* mainappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423775F1FC446A500627F2D /* mainappTests.swift */; };
 		8423776B1FC446A500627F2D /* mainappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423776A1FC446A500627F2D /* mainappUITests.swift */; };
-		847655141FC44B6500018841 /* abstract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847655151FC44B6500018841 /* abstract.framework */; };
-		847655161FC44B6900018841 /* math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847655171FC44B6900018841 /* math.framework */; };
+		845867C31FC47A8700FCF7F1 /* AbstractLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845867C41FC47A8700FCF7F1 /* AbstractLayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +48,7 @@
 		842377661FC446A500627F2D /* mainappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mainappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423776A1FC446A500627F2D /* mainappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainappUITests.swift; sourceTree = "<group>"; };
 		8423776C1FC446A500627F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845867C41FC47A8700FCF7F1 /* AbstractLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AbstractLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847655101FC44B4B00018841 /* math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = math.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847655151FC44B6500018841 /* abstract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = abstract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847655171FC44B6900018841 /* math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = math.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847655161FC44B6900018841 /* math.framework in Frameworks */,
-				847655141FC44B6500018841 /* abstract.framework in Frameworks */,
+				845867C31FC47A8700FCF7F1 /* AbstractLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 		8476550E1FC44B4B00018841 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				845867C41FC47A8700FCF7F1 /* AbstractLayer.framework */,
 				847655171FC44B6900018841 /* math.framework */,
 				847655151FC44B6500018841 /* abstract.framework */,
 				847655101FC44B4B00018841 /* math.framework */,

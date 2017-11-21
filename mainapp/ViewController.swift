@@ -7,15 +7,14 @@
 //
 
 import UIKit
-import abstract
-import math
+import AbstractLayer
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Abstract.doSomething()
+        AbstactLayer.test1()
     }
 
     override func didReceiveMemoryWarning() {
